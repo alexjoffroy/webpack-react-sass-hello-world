@@ -1,7 +1,7 @@
 import React from 'react';
 import './HelloWorld.scss';
 
-export default React.createClass({
+const HelloWorld = React.createClass({
 
 	displayName: 'HelloWorld',
 
@@ -35,3 +35,5 @@ export default React.createClass({
 	}
 
 });
+
+export default HelloWorld;

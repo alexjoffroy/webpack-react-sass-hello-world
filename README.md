@@ -29,6 +29,7 @@ cd webpack-react-sass-hello-world && npm install
 ```
 Commands:
 ```shell
-npm run build # build the lib to publish the package
+npm run build 	# build the lib to publish the package
 npm run example # build the example
+npm run test	# run the tests
 ```
