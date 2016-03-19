@@ -31,5 +31,6 @@ Commands:
 ```shell
 npm run build 	# build the lib to publish the package
 npm run example # build the example
-npm run test	# run the tests
+npm run test	  # run the tests
+npm run lint    # lint the code
 ```
