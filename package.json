@@ -45,9 +45,10 @@
   "scripts": {
     "prepublish": "npm run build",
     "clean": "rimraf ./lib",
-    "build": "npm run clean && webpack && cp ./src/HelloWorld.scss ./lib/webpack-react-sass-hello-world.scss",
+    "lib": "webpack && cp ./src/HelloWorld.scss ./lib/webpack-react-sass-hello-world.scss",
+    "build": "npm run lint && npm run test && npm run clean && npm run lib",
     "example": "cd example && webpack",
-    "test": "npm run lint && jest",
+    "test": "jest",
     "lint": "eslint . --ext .js"
   },
   "jest": {

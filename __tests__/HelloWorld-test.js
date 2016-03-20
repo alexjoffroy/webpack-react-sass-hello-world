@@ -7,10 +7,8 @@ jest.unmock(component);
 
 const HelloWorld = require(component);
 
-console.log(HelloWorld);
-
 describe('HelloWorld', () => {
-  
+
   it('should render a "section"', () => {
 
     const instance = renderIntoDocument(
