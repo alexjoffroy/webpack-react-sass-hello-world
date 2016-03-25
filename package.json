@@ -1,7 +1,7 @@
 {
-  "author": "Alexandre Joffroy (the-cormoran)",
+  "author": "Alexandre Joffroy (alexjoffroy)",
   "bugs": {
-    "url": "https://github.com/the-cormoran/webpack-react-sass-hello-world/issues"
+    "url": "https://github.com/alexjoffroy/webpack-react-sass-hello-world/issues"
   },
   "description": "Hello World with Webpack, React and Sass",
   "devDependencies": {
