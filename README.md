@@ -21,7 +21,7 @@ You'll also have to include the CSS or SCSS file in your project.
 ## Development
 Clone the repository:
 ```
-git clone https://github.com/the-cormoran/webpack-react-sass-hello-world.git
+git clone https://github.com/alexjoffroy/webpack-react-sass-hello-world.git
 ```
 Install dependencies:
 ```
